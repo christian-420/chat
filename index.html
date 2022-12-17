@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<title>BomboChat</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="navBar">
+				<div class="navIcon">
+					<h3>BomboChat</h3>
+				</div>
+				<div class="main-navLinks">
+					<button class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="navLinks-container">
+						<ul>
+							<li> <a href="#"></a> Accueil </li>
+							<li> <a href="#"></a> A propos </li>
+							<li> <a href="#"></a> Se connecter </li>
+							<li> <a href="#"></a> S'inscrire </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="home" id="home">
+				<section>
+					<div class="text">
+						<h2>Bienvenu !!</h2>
+						<p>BomboChat est une site de conversation, entre potes, entre familles ou pour tous le monde. Une site web
+							qui vous permet, mes dans votre canapé et n'import ou, d'être toujours avec vos proches à n'import quel
+							moment. Pour le fun Inscrivez-vous, et bonne discussion.</p>
+					</div>
+				</section>
+			</div>
+			<div class="about" id="about">
+				<section>
+					<div class="text-about">
+						<h2>A Propos</h2>
+						<p>Cette site a été mis en page par des languages
+							comme: HTML, CSS, JavaScript, Ajax et PHP, et des Framework comme: Bootstrap et JQuery . Debut du projet
+							en
+							décembre 2022 par quelque groupe de jeunes.
+							Merci pour votre visite et Inscrivez-vous pour pouvoir discuter avec vos proche en tout moments.
+						</p>
+					</div>
+				</section>
+			</div>
+			<div class="form" id="form">
+				<form method="post" class="login" id="login">
+					<div class="col-" align="center">
+						<div class="head pb-3">Connexion</div>
+					</div>
+					<div class="messages-php"></div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-user icon"></i> Nom d'utilisateur</b> </label>
+						<input type="text" class="nom-login input-field" placeholder="Nom d'utilisateur" />
+					</div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-lock icon"></i> Mot de passe</b> </label>
+						<input type="password" class="mdp-login input-field" placeholder="Mot de passe" />
+					</div>
+					<div class="col- pt-2" align="center">
+						<a href="#reset_link" class="reset_link" align="center">Mot de passe oublié?</a>
+					</div>
+					<div class="col- pt-2" align="center">
+						<button class="btn btn-primary button" type="submit"></a>
+							Confirmer
+						</button>
+					</div>
+				</form>
+				<form method="post" class="sign-in" id="sign-in">
+					<div class="col-" align="center">
+						<div class="head pb-3">Inscription</div>
+					</div>
+					<div class="messages-php"></div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-user icon"></i> Nom d'utilisateur</b> </label>
+						<input type="text" class="nom-singin input-field" placeholder="Nom d'utilisateur" />
+					</div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-lock icon"></i> Mot de passe</b> </label>
+						<input type="password" class="mdp-singin input-field" placeholder="Mot de passe" />
+					</div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-check icon"></i> Confirmer le mot de passe</b> </label>
+						<input type="password" class="confirm-singin input-field" placeholder="Confirmer le mot de passe" />
+					</div>
+					<div class="col- pt-4" align="center">
+						<button class="btn btn-primary button" type="submit">
+							Confirmer
+						</button>
+					</div>
+				</form>
+				<form method="post" class="reset" id="reset">
+					<div class="col-" align="center">
+						<div class="head pb-3">Mot de passe oublier</div>
+					</div>
+					<div class="messages-php"></div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-user icon"></i> Nom d'utilisateur</b> </label>
+						<input type="text" class="nom-reset input-field" placeholder="Nom d'utilisateur" />
+					</div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-lock icon"></i> Mot de passe</b> </label>
+						<input type="password" class="mdp-reset input-field" placeholder="Mot de passe" />
+					</div>
+					<div class="col- px-3 pt-2">
+						<label> <b> <i class="fas fa-check icon"></i> Confirmer le mot de passe</b> </label>
+						<input type="password" class="confirm-reset input-field" placeholder="Confirmer le mot de passe" />
+					</div>
+					<div class="col- pt-4" align="center">
+						<button class="btn btn-primary button" type="submit">
+							Confirmer
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="./assets/js/jquery-3.6.1.min.js"></script>
+	<script src="./assets/js/app.js"></script>
+	<script src="./assets/js/auth.js"></script>
+	<script src="./assets/js/all.js"></script>
+	<script src="./assets/js/brands.js"></script>
+	<script src="./assets/js/menu.js"></script>
+</body>
+
+</html>
